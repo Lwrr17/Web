@@ -1,0 +1,65 @@
+body{
+    margin-left:0px;
+    margin-top:0px;
+}
+.menu ul{
+    padding-left:0px;
+    padding-top:0px;
+    
+    
+}
+.menu{
+    position:fixed;
+    height:100%;
+    background-color: gray;
+    overflow: hidden;
+    
+}
+.menu-item{
+    font-size:32px;
+    font-weight: bold;
+    border: 1px solid white;
+    padding: 0 10px;
+}
+.site{
+    position: absolute;
+}
+.names{
+    justify-content: center;
+}
+.block-right {
+    right: 25%;
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    background-color: gray;
+    box-shadow: 10px 10px 45px 5px black;
+    text-align: center;
+}
+.block-left {
+    left: 30%;
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    background-color: gray;
+    box-shadow: 10px 10px 45px 5px black;
+    text-align: center;
+}
+.Title{
+    margin-left:150px;
+    text-align:center;
+}
+.text{
+    margin-left: 200px;
+    text-align:center;
+}
+.avatar{
+    position: absolute;
+    border-radius: 50%;
+    left: -15px;
+    top: -15px;
+    overflow: hidden;
+    width:70px;
+    height:70px;
+   
+}
